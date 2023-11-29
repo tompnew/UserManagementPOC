@@ -27,7 +27,6 @@ locals {
 
 provider "aws" {
   region  = "eu-west-1"
-  profile = "j2voicedevu"
 
   default_tags {
     tags = {
